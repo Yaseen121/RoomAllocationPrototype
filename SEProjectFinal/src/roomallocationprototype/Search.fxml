@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" stylesheets="@style.css" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="roomallocationprototype.SearchController">
+   <children>
+      <Label layoutX="247.0" layoutY="40.0" text="Search">
+         <font>
+            <Font size="36.0" />
+         </font></Label>
+      <Separator layoutX="30.0" layoutY="92.0" prefWidth="540.0" />
+      <VBox alignment="CENTER" layoutX="200.0" layoutY="115.0" prefHeight="194.0" prefWidth="200.0" spacing="10.0">
+         <children>
+            <DatePicker fx:id="startDate" promptText="Start Date" />
+            <DatePicker fx:id="endDate" promptText="End Date" />
+            <TextField fx:id="roomName" promptText="Room Name" />
+            <TextField fx:id="roomType" promptText="Room Type" />
+            <TextField fx:id="roomCapacity" promptText="Room Capacity" />
+            <HBox alignment="CENTER" prefHeight="31.0" prefWidth="290.0" spacing="10.0">
+               <children>
+                  <Button fx:id="search" mnemonicParsing="false" onAction="#search" prefHeight="25.0" prefWidth="200.0" text="Search" />
+                  <Button fx:id="cancel" mnemonicParsing="false" onAction="#cancel" prefHeight="25.0" prefWidth="200.0" styleClass="Cancel" text="Cancel" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

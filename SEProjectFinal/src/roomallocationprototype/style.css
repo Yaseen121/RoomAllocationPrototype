@@ -1,0 +1,49 @@
+
+.mainFxmlClass {
+	
+}
+
+ 
+Button{
+	-fx-background-color: #2196F3;
+    -fx-padding: 5.0;
+   	-fx-font-size: 15.0px;
+   
+   	-fx-text-fill: #ffffff;
+   	-fx-background-radius: 0.0px;
+}
+
+.text-field {
+    -fx-text-box-border: transparent;
+    -fx-background-color: -fx-control-inner-background;
+}
+
+.text-field:focused {
+    -fx-focus-color: transparent;
+}
+
+.Logout{
+	-fx-pref-width: 100.0px;
+	-fx-background-color: #FF0000;
+}
+
+.Cancel{
+	-fx-background-color: #FF0000;
+}
+
+ComboBox{
+	-fx-background-color: #2196F3;
+	-fx-background-radius: 0.0px;
+	-fx-text-fill: #ffffff;
+	 -fx-padding: 5.0;
+}
+
+TableView{
+	
+}
+
+DatePicker{
+	-fx-border-color: #F4F4F4;
+	 -fx-background-radius: 0.0px;
+}
+

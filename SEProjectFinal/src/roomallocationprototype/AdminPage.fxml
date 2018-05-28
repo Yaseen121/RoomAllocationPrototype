@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="roomallocationprototype.AdminPageController">
+   <children>
+      <Label layoutX="180.0" layoutY="37.0" text="Admin Options">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Separator layoutX="30.0" layoutY="89.0" prefWidth="540.0" />
+      <Label layoutX="30.0" layoutY="117.0" text="Users">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Separator layoutX="50.0" layoutY="216.0" prefWidth="500.0" />
+      <HBox alignment="CENTER" layoutX="63.0" layoutY="117.0" prefHeight="100.0" prefWidth="490.0" spacing="20.0">
+         <children>
+            <Button fx:id="addUser" mnemonicParsing="false" onAction="#addUser" prefHeight="25.0" prefWidth="150.0" text="Add User" />
+            <Button fx:id="removeUser" mnemonicParsing="false" onAction="#removeUser" prefHeight="25.0" prefWidth="150.0" text="Remove User" />
+            <Button fx:id="editUser" disable="true" mnemonicParsing="false" prefHeight="25.0" prefWidth="150.0" text="Edit User" />
+         </children>
+      </HBox>
+      <Label layoutX="32.0" layoutY="239.0" text="Rooms">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <HBox alignment="CENTER" layoutX="63.0" layoutY="254.0" prefHeight="100.0" prefWidth="490.0" spacing="20.0">
+         <children>
+            <Button fx:id="addRoom" mnemonicParsing="false" onAction="#addRoom" prefHeight="25.0" prefWidth="150.0" text="Add Room" />
+            <Button fx:id="removeRoom" mnemonicParsing="false" onAction="#removeRoom" prefHeight="25.0" prefWidth="150.0" text="Remove Room" />
+            <Button fx:id="editRoom" disable="true" mnemonicParsing="false" prefHeight="25.0" prefWidth="150.0" text="Edit Room" />
+         </children>
+      </HBox>
+      <Separator layoutX="51.0" layoutY="353.0" prefWidth="500.0" />
+      <Button fx:id="cancel" layoutX="258.0" layoutY="356.0" mnemonicParsing="false" onAction="#cancel" prefHeight="25.0" prefWidth="100.0" styleClass="Cancel" text="Cancel" />
+   </children>
+</AnchorPane>
