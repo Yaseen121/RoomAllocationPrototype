@@ -20,28 +20,28 @@ A room allocation system desktop app built with Java.
 ### Gallery
  - Some images to show the software
 
-[![se-non-admin-menu](https://i.imgur.com/F99BwGF.png)]
+![se-non-admin-menu](https://i.imgur.com/F99BwGF.png)
 >Non-Admin Menu.
 
-[![se-non-admin-manage](https://i.imgur.com/LjpGFAc.png)]
+![se-non-admin-manage](https://i.imgur.com/LjpGFAc.png)
 >Non-Admin Manage Options 
 
-[![se-view-bookings](https://i.imgur.com/7ETf7ZI.png)]
+![se-view-bookings](https://i.imgur.com/7ETf7ZI.png)
 >View Bookings
 
-[![se-search-page](https://i.imgur.com/Khj9Wwh.png)]
+![se-search-page](https://i.imgur.com/Khj9Wwh.png)
 >Search Page
 
-[![se-room-search-result](https://i.imgur.com/D5PCCUD.png)]
+![se-room-search-result](https://i.imgur.com/D5PCCUD.png)
 >Room search result.
 
-[![se-admin-menu](https://i.imgur.com/gtqgbvW.png)]
+![se-admin-menu](https://i.imgur.com/gtqgbvW.png)
 >Admin Menu
 
-[![se-admin-manage](https://i.imgur.com/v2IGpid.png)]
+![se-admin-manage](https://i.imgur.com/v2IGpid.png)
 >Admin Manage Options 
 
-[![se-admin-options](https://i.imgur.com/BQ9IuTi.png)]
+![se-admin-options](https://i.imgur.com/BQ9IuTi.png)
 >Admin Options
 
 
