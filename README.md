@@ -21,7 +21,7 @@ A room allocation system desktop app built with Java.
  - Some images to show the software
 
 ![se-non-admin-menu](https://i.imgur.com/F99BwGF.png)
-<Non-Admin Menu.>
+> Non-Admin Menu.
 
 
 ![se-non-admin-manage](https://i.imgur.com/LjpGFAc.png)
