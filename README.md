@@ -1,4 +1,4 @@
-# Software Engineer Group Project Final - A Room Allocation System
+# Software Engineer Group Project Final - A Room Allocation System (Spring 2018)
 
 A room allocation system desktop app built with Java. 
 
